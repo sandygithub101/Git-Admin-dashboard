@@ -6,7 +6,7 @@ git add .  // Staging Project
 git commit -m "Initial commit"
 git status // Just to see
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" // I created for public
-tail <path to id_rsa.pub> // Add this key to your GitHub account
+(tail) cat <path to id_rsa.pub> // Add this key to your GitHub account
 git remote add origin <ssh url.git>
 git push origin master
 
